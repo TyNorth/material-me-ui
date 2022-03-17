@@ -4,9 +4,9 @@ import './assets/css/designlibrary.css'
 import './assets/css/materialme.css'
 
 /**
- * An example element.
+ * Material Me Button element.
  *
- * @slot - This element has a slot
+ * 
  * @csspart button - The button
  */
 @customElement('mm-btn')
