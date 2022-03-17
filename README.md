@@ -37,7 +37,6 @@ Use these web components like any other HTML tag and refer to the API for more d
 
 Ex.
 <mm-btn class="mm-btn red500 mm-hover"></mm-btn>
-![basic red button with hover effect](red_hover_btn.png)
 ```
 
 ## Components
