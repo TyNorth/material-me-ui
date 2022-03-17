@@ -11,18 +11,23 @@
     <img alt="License: MIT" src="https://img.shields.io/github/license/tyronenorth/material-me-ui" />
   </a>
   <a href="https://twitter.com/Simulated\_Dev" target="_blank">
-    <img alt="Twitter: Simulated\_Dev" src="https://img.shields.io/twitter/follow/Simulated\_Dev.svg?style=social" />
+    <img alt="Twitter: Simulated\_Dev" src="https://img.shields.io/twitter/follow/Simulated_Dev.svg?style=social" />
   </a>
 </p>
 
-> Themable material-ui based web compoonents.
+> Themable material-ui based web components.
+
+> Stack
+* Vite
+* LitTypescript
+
 
 ### 🏠 [Homepage](https://github.com/tyronenorth/material-me-ui)
 
 ## Install
 
 ```sh
-npm install
+npm install [TODO]
 ```
 
 ## Usage
@@ -30,6 +35,48 @@ npm install
 ```sh
 Use these web components like any other HTML tag and refer to the API for more details on usage.
 ```
+
+## Components
+
+* [ ] Accordion
+* [ ] Avatar
+* [ ] Alerts
+* [ ] Badge
+* [ ] Breadcrumb
+* [x] Buttons
+* [ ] Button group
+* [ ] Card
+* [ ] Carousel
+* [ ] Checkbox
+* [ ] Chips
+* [ ] Close button
+* [ ] Collapse
+* [ ] Dialog
+* [ ] Divider
+* [ ] Drawer/Hamburger Menu
+* [ ] Dropdowns
+* [ ] Form
+* [x] Grid/Layout
+* [ ] Image List
+* [ ] List group
+* [ ] Menu
+* [ ] Modal
+* [ ] Navbar
+* [ ] Offcanvas
+* [ ] Pagination
+* [ ] Placeholders
+* [ ] Popovers
+* [ ] Radio
+* [ ] Sliders
+* [ ] Snackbar
+* [ ] Switches 
+* [ ] Table
+* [ ] Loading & progress animations
+* [ ] Toasts
+* [ ] Tooltips
+
+
+
 
 ## Author
 
