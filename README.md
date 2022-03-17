@@ -34,6 +34,10 @@ npm install [TODO]
 
 ```sh
 Use these web components like any other HTML tag and refer to the API for more details on usage.
+
+Ex.
+<mm-btn class="mm-btn red500 mm-hover"></mm-btn>
+![basic red button with hover effect](/assets/images/red-button-hover.png)
 ```
 
 ## Components
