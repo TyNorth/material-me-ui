@@ -1,0 +1,36 @@
+{
+  "name": "material-me-ui",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Themable material-ui based web compoonents.",
+  "author": "Tyrone North",
+  "license": "MIT",
+  "homepage": "https://github.com/tyronenorth/material-me-ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyronenorth/material-me-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tyronenorth/material-me-ui/issues"
+  },
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "types": "types/my-element.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "vite": "^2.8.0",
+    "typescript": "^4.5.4"
+  }
+}
