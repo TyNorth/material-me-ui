@@ -539,6 +539,8 @@ a {
   float: left;
   width: 100%;
 }
+ 
+
 .mm-col.s1 {
   width: 8.33333%;
 }
@@ -1617,6 +1619,172 @@ a {
 .mm-border-pale-blue,
 .mm-hover-border-pale-blue:hover {
   border-color: #e7ffff !important;
+}
+
+.mm-border-red50,
+.mm-hover-border-red50:hover {
+  border-color: #ffebee !important;
+}
+.mm-border-red100,
+.mm-hover-border-red100:hover {
+  border-color: #ffcdd2 !important;
+}
+.mm-border-red200,
+.mm-hover-border-red200:hover {
+  border-color: #ef9a9a !important;
+}
+.mm-border-red300,
+.mm-hover-border-red300:hover {
+  border-color: #e57373 !important;
+}
+.mm-border-red400,
+.mm-hover-border-red400:hover {
+  border-color: #ef5350 !important;
+}
+.mm-border-red500,
+.mm-hover-border-red500:hover {
+  border-color: #f44336 !important;
+}
+.mm-border-red600,
+.mm-hover-border-red600:hover {
+  border-color: #e53935 !important;
+}
+.mm-border-red700,
+.mm-hover-border-red700:hover {
+  border-color: #d32f2f !important;
+}
+.mm-border-red800,
+.mm-hover-border-red800:hover {
+  border-color: #c62828 !important;
+}
+.mm-border-red900,
+.mm-hover-border-red900:hover {
+  border-color: #b71c1c !important;
+}
+
+.mm-border-redA100,
+.mm-hover-border-redA100:hover {
+  border-color: #ff8a80 !important;
+}
+.mm-border-redA200,
+.mm-hover-border-redA200:hover {
+  border-color: #ff5252 !important;
+}
+.mm-border-redA400,
+.mm-hover-border-redA400:hover {
+  border-color: #ff1744 !important;
+}
+.mm-border-redA700,
+.mm-hover-border-redA700:hover {
+  border-color: #d50000 !important;
+}
+
+.mm-border-pink50,
+.mm-hover-border-pink50:hover {
+  border-color: #fce4ec !important;
+} 
+.mm-border-pink100,
+.mm-hover-border-pink100:hover {
+  border-color: #f8bbd0 !important;
+}
+.mm-border-pink200,
+.mm-hover-border-pink200:hover {
+  border-color: #f48fb1 !important;
+}
+.mm-border-pink300,
+.mm-hover-border-pink300:hover {
+  border-color: #f06292 !important;
+}
+.mm-border-pink400,
+.mm-hover-border-pink400:hover {
+  border-color: #ec407a !important;
+}
+.mm-border-pink500,
+.mm-hover-border-pink500:hover {
+  border-color: #e91e63 !important;
+}
+.mm-border-pink600,
+.mm-hover-border-pink600:hover {
+  border-color: #d81b60 !important;
+}
+.mm-border-pink700,
+.mm-hover-border-pink700:hover {
+  border-color: #c2185b !important;
+}
+.mm-border-pink800,
+.mm-hover-border-pink800:hover {
+  border-color: #ad1457 !important;
+}
+.mm-border-pink900,
+.mm-hover-border-pink900:hover {
+  border-color: #880e4f !important;
+}
+
+.mm-border-pinkA100,
+.mm-hover-border-pinkA100:hover {
+  border-color: #ff80ab !important;
+}
+.mm-border-pinkA200,
+.mm-hover-border-pinkA200:hover {
+  border-color: #ff4081 !important;
+}
+.mm-border-pinkA400,
+.mm-hover-border-pinkA400:hover {
+  border-color: #f50057 !important;
+}
+.mm-border-pinkA700,
+.mm-hover-border-pinkA700:hover {
+  border-color: #c51162 !important;
+}
+
+.mm-border-purple50,
+.mm-hover-border-purple50:hover {
+  border-color: #f3e5f5 !important;
+}
+.mm-border-purple100,
+.mm-hover-border-purple100:hover {
+  border-color: #e1bee7 !important;
+}
+.mm-border-purple200,
+.mm-hover-border-purple200:hover {
+  border-color: #ce93d8 !important;
+}
+.mm-border-purple300,
+.mm-hover-border-purple300:hover {
+  border-color: #ba68c8 !important;
+}
+.mm-border-purple400,
+.mm-hover-border-purple400:hover {
+  border-color: #ab47bc !important;
+}
+.mm-border-purple500,
+.mm-hover-border-purple500:hover {
+  border-color: #9c27b0 !important;
+}
+.mm-border-purple600,
+.mm-hover-border-purple600:hover {
+  border-color: #8e24aa !important;
+}
+.mm-border-purple700,
+.mm-hover-border-purple700:hover {
+  border-color: #7b1fa2 !important;
+}
+.mm-border-purple800,
+.mm-hover-border-purple800:hover {
+  border-color: #6a1b9a !important;
+}
+.mm-border-purple900,
+.mm-hover-border-purple900:hover {
+  border-color: #4a148c !important;
+}
+
+.mm-border-purpleA100,
+.mm-hover-border-purpleA100:hover {
+  border-color: #ea80fc !important;
+}
+.mm-border-purpleA200,
+.mm-hover-border-purpleA200:hover {
+  border-color: #e040fb !important;
 }
 
 /* Gutters/Spacing between columns */

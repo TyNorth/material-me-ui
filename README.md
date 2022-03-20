@@ -36,7 +36,7 @@ npm install [TODO]
 Use these web components like any other HTML tag and refer to the API for more details on usage.
 
 Ex.
-<mm-btn class="mm-btn red500 mm-hover"></mm-btn>
+<mm-btn class="red500 mm-hover"></mm-btn>
 produces a rectangle red button specified to material design red500 with hover state. 
 ```
 
