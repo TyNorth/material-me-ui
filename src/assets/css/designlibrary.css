@@ -1343,6 +1343,81 @@
         line-height: 10px;
     }
 
+    /* Text Colors */
+    .text-red50 {
+        color: #ffebee;
+    }
+    .text-red100 {
+        color: #ffcdd2;
+    }
+    .text-red200 {
+        color: #ef9a9a;
+    }
+    .text-red300 {
+        color: #e57373;
+    }
+    .text-red400 {
+        color: #ef5350;
+    }
+    .text-red500 {
+        color: #f44336;
+    }
+    .text-red600 {
+        color: #e53935;
+    }
+    .text-red700 {
+        color: #d32f2f;
+    }
+    .text-red800 {
+        color: #c62828;
+    }
+    .text-red900 {
+        color: #b71c1c;
+    }
+    .text-redA100 {
+        color: #ff8a80;
+    }
+    .text-redA200 {
+        color: #ff5252;
+    }
+    .text-redA400 {
+        color: #ff1744;
+    }
+    .text-redA700 {
+        color: #d50000;
+    }
+    .text-pink50 {
+        color: #fce4ec;
+    }
+    .text-pink100 {
+        color: #f8bbd0;
+    }
+    .text-pink200 {
+        color: #f48fb1;
+    }
+    .text-pink300 {
+        color: #f06292;
+    }
+    .text-pink400 {
+        color: #ec407a;
+    }
+    .text-pink500 {
+        color: #e91e63;
+    }
+    .text-pink600 {
+        color: #d81b60;
+    }
+    .text-pink700 {
+        color: #c2185b;
+    }
+    .text-pink800 {
+        color: #ad1457;
+    }
+    .text-pink900 {
+        color: #880e4f;
+    }
+    
+
 /* Additional color libraries based on W3CSS */
 
 

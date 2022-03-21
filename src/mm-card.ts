@@ -1,7 +1,10 @@
 import { html, css, LitElement } from 'lit'
 import { customElement, property } from 'lit/decorators.js'
-import '../assets/css/designlibrary.css'
-import '../assets/css/materialme.css'
+import { styleMap } from 'lit-html/directives/style-map.js'
+import './assets/css/designlibrary.css'
+import './assets/css/materialme.css'
+import './assets/css/utilities.css'
+
 
 /**
  * Material Me Card element.
@@ -22,34 +25,37 @@ export class MMCard extends LitElement {
     static styles = css` 
         :host {
             display: block;
-            width: 100%;
-            height: 100%;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            padding: 16px;
-            border-radius: 0;
-            border: 1px solid black;
-            margin: 8px 4px;
-            
+            max-width: var(--mm-card-max-w, 800px);
+            width: var(--mm-w, 300px);
+            height: var(--mm-h, auto);
+            box-sizing: var(--mm-box-sizing, border-box);
+            display: var(--mm-display, block);
+            flex-direction: var(--mm-flex-direction, column);
+            padding: var(--mm-p, 16px);
+            border-radius: var(--mm-br, 4px);
+            border: var(--mm-border, 1px solid #ccc);
+            margin: var(--mm-m, 8px 4px);
+            transition: var(--mm-trans, all 0.3s ease-in-out);
         }
+        
 
         
         .mm-card-title {
-            font-size: 24px;
-            font-weight: 500;
-            line-height: 32px;
-            margin: 0;
-            padding: 0;
+            font-size: var(--m-fontS, 24px);
+            font-weight: var(--m-fontW, 500);
+            line-height: var(--m-lineH, 32px);
+            --mm-m: 0;
+            --m-p: 0;
         }
         .mm-card-content {
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 20px;
-            margin: 0;
-            padding: 0;
+            --m-fontS: 16px;
+            --m-fontW: 400;
+            --m-lineH: 24px;
+            --mm-m: 0;
+            --m-p: 0;
 
         }
+        
         `
 
 render() {

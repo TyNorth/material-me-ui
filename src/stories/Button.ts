@@ -1,12 +1,13 @@
 import { html } from 'lit-html';
 import { styleMap } from 'lit-html/directives/style-map.js';
-import './button.css';
+import '../assets/css/materialme.css'
+import '../assets/css/designlibrary.css'
 
 export interface ButtonProps {
   /**
    * Is this the principal call to action on the page?
    */
-  primary?: boolean;
+  type?: 'primary' | 'secondary' | 'tertiary' | 'quaternary' | 'quinary' | 'senary' | 'septenary' | 'octonary' | 'nonary' | 'denary';
   /**
    * What background color to use
    */
@@ -14,7 +15,7 @@ export interface ButtonProps {
   /**
    * How large should the button be?
    */
-  size?: 'small' | 'medium' | 'large';
+  size?: 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge' | 'xxlarge';
   /**
    * Button contents
    */
@@ -27,13 +28,13 @@ export interface ButtonProps {
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, backgroundColor = null, size, label, onClick }: ButtonProps) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+export const Button = ({ type, backgroundColor = type, size, label, onClick }: ButtonProps) => {
+  const mode = type ? 'mm-button--primary' : 'mm-button--secondary';
 
   return html`
     <button
       type="button"
-      class=${['storybook-button', `storybook-button--${size || 'medium'}`, mode].join(' ')}
+      class=${['mm-button', `mm-button--${size || 'medium'}`, mode].join(' ')}
       style=${styleMap({ backgroundColor })}
       @click=${onClick}
     >

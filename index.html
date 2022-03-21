@@ -5,13 +5,23 @@
     <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
     <link rel="stylesheet" href="./src/assets/css/materialme.css" />
     <link rel="stylesheet" href="./src/assets/css/designlibrary.css">
+    <link rel="stylesheet" href="./src/assets/css/utilities.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Material Me</title>
     <script type="module" src="/src/mm-btn.ts"></script>
-    <script type="module" src="/src/components/mm-card.ts"></script>
+    <script type="module" src="/src/mm-card.ts"></script>
+
+    <style>
+      mm-card {
+        --mm-trans: all 1s ease-in-out;
+      }
+      .fcard {
+        --mm-trans: all 3s ease-in-out;
+      }
+    </style>
   </head>
   <body>
     
@@ -28,7 +38,7 @@
             <h1>Vite + Lit</h1>
             <h2>A place to read and share your favorite books</h2>
             
-        <mm-btn class="text-wide red500 mm-hover round" text="Hi Mom!" ></mm-btn>
+        <mm-btn class="text-wide mm-btn-sm blue50 mm-hover-shadow mm-hover-red50 mm-hover-border-blue500 mm-text-deepPurple mm-font-heavy rounded" text="Primary Button" ></mm-btn>
           </div>
         </div>
       </div>
@@ -40,16 +50,16 @@
           <div class="mm-container">
             <h3>About</h3>
             <p>Vite + Lit is a place to read and share your favorite books. We are a team of four students at the University of Washington studying Computer Science. We are currently working on a project to make a mobile app that will allow users to read and share their favorite books.</p>
-            <mm-btn class="text-wider deepOrange500 squircle mm-hover" text="Halloween"></mm-btn>
+            <mm-btn class="text-wider mm-text-white mm-hover-text-black mm-btn-xs deepOrange500 squircle mm-hover-white mm-hover-border-deeporange500" text="Halloween"></mm-btn>
           </div>
         </div>
         <div class="mm-col m10 l10">
           <div class="mm-container">
-            <mm-card title="Card title" content="Hi Honey!" class="mm-hover-border-red500 indigo50 mm-border-purple600"></mm-card>
+            <mm-card title="Card title" content="Hi Honey!" class="fcard mm-hover-border-red500 text-pink900 indigo50 mm-border-purple600 mm-font-light"></mm-card>
             <h3>Projects</h3>
             <p>We are currently working on a project to make a mobile app that will allow users to read and share their favorite books.</p>
-            <mm-btn class=" text-wide outline-blue100 outline-md rounded-square mm-hover" text="Hi Mom!" ></mm-btn>
-            <mm-card title="Second Title" class="mm-hover red50" content="Hi Mom! "></mm-card>
+            <mm-btn class="mm-card mm-hover-shadow text-wide outline-blue100 outline-md rounded-square mm-hover-border-red500 text-red500 mm-font-medium mm-hover" text="Hi Mom!" ></mm-btn>
+            <mm-card title="Second Title" class="mm-hover-border-red500  mm-hover-shadow mm-hover-red500" content="Hi Mom! "></mm-card>
           </div>
         </div>
       </div>
