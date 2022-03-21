@@ -49,11 +49,10 @@ produces a rectangle red button specified to material design red500 with hover s
 * [ ] Breadcrumb
 * [x] Buttons
 * [ ] Button group
-* [ ] Card
+* [x] Card
 * [ ] Carousel
 * [ ] Checkbox
 * [ ] Chips
-* [ ] Close button
 * [ ] Collapse
 * [ ] Dialog
 * [ ] Divider
