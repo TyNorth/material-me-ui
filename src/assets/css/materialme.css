@@ -3271,6 +3271,20 @@ a {
   border-color: transparent !important;
 }
 
+/*
+ * Gradient borders
+ */
+
+ .mm-border-red50blue50,
+ .mm-hover-border-red50blue50:hover {
+   border-image: linear-gradient(45deg, #ff5252, #2979ff) 1 !important;
+ }
+  .mm-border-red100blue100,
+  .mm-hover-border-red100blue100:hover {
+    border-image: linear-gradient(45deg, #ff8a80, #2962ff) 1 !important;
+  }
+
+
 .mm-border-default,
 .mm-hover-border-default:hover {
   border-color: #e0e0e0 !important;

@@ -1,0 +1,69 @@
+
+    /* 
+      *
+      *  Shadows
+      *
+      */
+
+:root {
+
+
+    /* 
+      *
+      *  Variables
+      *
+      */
+  
+      --shadow-1dp: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+      --shadow-2dp: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+      --shadow-3dp: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12);
+      --shadow-4dp: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12);
+      --shadow-6dp: 0 1px 18px 0 rgba(0, 0, 0, 0.2), 0 8px 10px 0 rgba(0, 0, 0, 0.14), 0 8px 12px 1px rgba(0, 0, 0, 0.12);
+      --shadow-8dp: 0 1px 24px 0 rgba(0, 0, 0, 0.2), 0 8px 12px 0 rgba(0, 0, 0, 0.14), 0 8px 12px 1px rgba(0, 0, 0, 0.12);
+      --shadow-16dp: 0 1px 30px 0 rgba(0, 0, 0, 0.2), 0 16px 24px 0 rgba(0, 0, 0, 0.14), 0 16px 24px 1px rgba(0, 0, 0, 0.12);
+      --shadow-24dp: 0 1px 30px 0 rgba(0, 0, 0, 0.2), 0 16px 24px 0 rgba(0, 0, 0, 0.14), 0 16px 24px 1px rgba(0, 0, 0, 0.12);
+      --shadow-64dp: 0 1px 30px 0 rgba(0, 0, 0, 0.2), 0 16px 24px 0 rgba(0, 0, 0, 0.14), 0 16px 24px 1px rgba(0, 0, 0, 0.12);
+      --shadow-128dp: 0 1px 30px 0 rgba(0, 0, 0, 0.2), 0 16px 24px 0 rgba(0, 0, 0, 0.14), 0 16px 24px 1px rgba(0, 0, 0, 0.12);
+
+}
+
+
+/*
+ *
+ * Classes
+ *
+ */
+
+.shadow-1dp {
+    box-shadow: var(--shadow-1dp);
+}
+.shadow-2dp {
+    box-shadow: var(--shadow-2dp);
+}
+.shadow-3dp {
+    box-shadow: var(--shadow-3dp);
+}
+.shadow-4dp {
+    box-shadow: var(--shadow-4dp);
+}
+.shadow-8dp {
+    box-shadow: var(--shadow-8dp);
+}
+.shadow-16dp {
+    box-shadow: var(--shadow-16dp);
+}
+.shadow-24dp {
+    box-shadow: var(--shadow-24dp);
+}
+.shadow-32dp {
+    box-shadow: var(--shadow-32dp);
+}
+.shadow-64dp {
+    box-shadow: var(--shadow-64dp);
+}
+.shadow-128dp {
+    box-shadow: var(--shadow-128dp);
+}
+
+
+  

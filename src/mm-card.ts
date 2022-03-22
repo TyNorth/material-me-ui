@@ -1,6 +1,5 @@
 import { html, css, LitElement } from 'lit'
 import { customElement, property } from 'lit/decorators.js'
-import { styleMap } from 'lit-html/directives/style-map.js'
 import './assets/css/designlibrary.css'
 import './assets/css/materialme.css'
 import './assets/css/utilities.css'

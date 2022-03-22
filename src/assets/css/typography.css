@@ -1,0 +1,190 @@
+/*
+    *
+    * Typography
+    *
+    */
+
+
+
+
+
+:root {
+
+     /*Font Family*/
+     --font-family-sans-serif: 'Roboto', sans-serif;
+     --font-family-serif: 'Roboto Slab', serif;
+     --font-family-monospace: 'Roboto Mono', monospace;
+     --font-family-code: 'Roboto Mono', monospace;
+     --font-family-cursive: 'Roboto Slab', cursive;
+     --font-family-fantasy: 'Roboto Slab', fantasy;
+     --font-family-system: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     --font-family-display: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     --font-family-title: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     --font-family-button: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     --font-family-caption: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     --font-family-overline: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     --font-family-menu: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     --font-family-subtitle: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     --font-family-small-caption: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  /* Font Size */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 4rem;
+  --font-size-7xl: 5rem;
+  --font-size-8xl: 6rem;
+  --font-size-9xl: 7rem;
+  --font-size-10xl: 8rem;
+
+  /* Font Variant */
+  --font-variant-normal: normal;
+  --font-variant-small-caps: small-caps;
+  --font-variant-inherit: inherit;
+  --font-variant-initial: initial;
+  --font-variant-unset: unset;
+
+  /* Font Weight */
+  --font-weight-100: 100;
+  --font-weight-200: 200;
+  --font-weight-300: 300;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --font-weight-800: 800;
+  --font-weight-900: 900;
+  --font-weight-bold: bold;
+  --font-weight-bolder: bolder;
+  --font-weight-lighter: lighter;
+  --font-weight-inherit: inherit;
+  --font-weight-initial: initial;
+  --font-weight-unset: unset;
+  --font-weight-thin: 100;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+
+  /* Font Style */
+  --font-style-normal: normal;
+  --font-style-italic: italic;
+  --font-style-oblidotque: oblidotque;
+  --font-style-inherit: inherit;
+  --font-style-initial: initial;
+  --font-style-unset: unset;
+
+  /* Font Transformations */
+  --font-transform-none: none;
+  --font-transform-capitalize: capitalize;
+  --font-transform-uppercase: uppercase;
+  --font-transform-lowercase: lowercase;
+  --font-transform-inherit: inherit;
+  --font-transform-initial: initial;
+  --font-transform-unset: unset;
+  --font-transform-full-width: full-width;
+  --font-transform-full-height: full-height;
+  --font-transform-normal: normal;
+  --font-transform-inverse: inverse;
+
+  /* Line Height */
+  --line-height-1: 1;
+  --line-height-1dotq: 1.25;
+  --line-height-1h: 1.5;
+  --line-height-1dot3q: 1.75;
+  --line-height-2: 2;
+  --line-height-2dotq: 2.25;
+  --line-height-2h: 2.5;
+  --line-height-2dot3q: 2.75;
+  --line-height-3: 3;
+  --line-height-3dotq: 3.25;
+  --line-height-3h: 3.5;
+  --line-height-3dot3q: 3.75;
+  --line-height-4: 4;
+  --line-height-4dotq: 4.25;
+  --line-height-4h: 4.5;
+  --line-height-4dot3q: 4.75;
+  --line-height-5: 5;
+
+  /* Letter Spacing */
+  --letter-spacing-0: 0;
+  --letter-spacing-dotq: 0.25px;
+  --letter-spacing-h: 0.5px;
+  --letter-spacing-dot3q: 0.75px;
+  --letter-spacing-1: 1px;
+  --letter-spacing-1dotq: 1.25px;
+  --letter-spacing-1h: 1.5px;
+  --letter-spacing-1dot3q: 1.75px;
+  --letter-spacing-2: 2px;
+  --letter-spacing-2dotq: 2.25px;
+  --letter-spacing-2h: 2.5px;
+  --letter-spacing-2dot3q: 2.75px;
+  --letter-spacing-3: 3px;
+}
+
+/*
+    *
+    * Classes based on variables
+    *
+    */
+
+
+/* Font Family */
+.font-family-sans-serif {
+  font-family: var(--font-family-sans-serif);
+}
+.font-family-serif {
+  font-family: var(--font-family-serif);
+}
+.font-family-monospace {
+  font-family: var(--font-family-monospace);
+}
+.font-family-code {
+  font-family: var(--font-family-code);
+}
+.font-family-cursive {
+  font-family: var(--font-family-cursive);
+}
+.font-family-fantasy {
+  font-family: var(--font-family-fantasy);
+}
+
+/* Font Size */
+.font-size-xs {
+  font-size: var(--font-size-xs);
+}
+.font-size-sm {
+  font-size: var(--font-size-sm);
+}
+.font-size-base {
+  font-size: var(--font-size-base);
+}
+.font-size-lg {
+  font-size: var(--font-size-lg);
+}
+.font-size-xl {
+  font-size: var(--font-size-xl);
+}
+.font-size-2xl {
+  font-size: var(--font-size-2xl);
+}
+.font-size-3xl {
+  font-size: var(--font-size-3xl);
+}
+.font-size-4xl {
+  font-size: var(--font-size-4xl);
+}
+
+
+
+
+/* Type Scale */
