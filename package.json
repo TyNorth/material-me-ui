@@ -1,9 +1,8 @@
 {
   "name": "material-me-ui",
-  "private": true,
   "version": "0.0.1",
   "description": "Themable material-ui based web compoonents.",
-  "author": "Tyrone North",
+  "author": "Tyrone North <northwillsolutions@gmail.com> (https://northwillsolutions.vercel.app)",
   "license": "MIT",
   "homepage": "https://github.com/tyronenorth/material-me-ui",
   "repository": {
